@@ -4,10 +4,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        MyBlue: "#85C1E9",
+        MyBlack: "#212121",
         MyGreen: "#76D7C4",
         white: "#FBFCFC",
       },
+    },
+    container: {
+      center: true,
     },
     screens: {
       sm: "640px",
